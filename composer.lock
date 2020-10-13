@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "190074c192a36d7134f30472ee1f8fa9",
+    "content-hash": "d9d8719159c5c6580ddae75e1d189899",
     "packages": [
         {
             "name": "brick/math",
@@ -59,17 +59,50 @@
             "time": "2020-08-18T23:57:15+00:00"
         },
         {
-            "name": "ramsey/collection",
-            "version": "1.1.1",
+            "name": "exocdr/exo-kernel",
+            "version": "dev-main",
             "source": {
                 "type": "git",
-                "url": "https://github.com/ramsey/collection.git",
-                "reference": "24d93aefb2cd786b7edd9f45b554aea20b28b9b1"
+                "url": "https://github.com/exocdr/exo-kernel.git",
+                "reference": "c9b0ae8d099253bbc6e94c8a795982aa4d694598"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ramsey/collection/zipball/24d93aefb2cd786b7edd9f45b554aea20b28b9b1",
-                "reference": "24d93aefb2cd786b7edd9f45b554aea20b28b9b1",
+                "url": "https://api.github.com/repos/exocdr/exo-kernel/zipball/c9b0ae8d099253bbc6e94c8a795982aa4d694598",
+                "reference": "c9b0ae8d099253bbc6e94c8a795982aa4d694598",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Exo\\Kernel\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Jeroen Keppens",
+                    "email": "jeroen@exocoder.io"
+                }
+            ],
+            "description": "Exocoder : kernel",
+            "time": "2020-10-13T20:02:32+00:00"
+        },
+        {
+            "name": "ramsey/collection",
+            "version": "1.2.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ramsey/collection.git",
+                "reference": "91e16d7de6e801d9e8e182388854ba69d7ce4134"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ramsey/collection/zipball/91e16d7de6e801d9e8e182388854ba69d7ce4134",
+                "reference": "91e16d7de6e801d9e8e182388854ba69d7ce4134",
                 "shasum": ""
             },
             "require": {
@@ -125,20 +158,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-09-10T20:58:17+00:00"
+            "time": "2020-09-10T21:03:04+00:00"
         },
         {
             "name": "ramsey/uuid",
-            "version": "4.1.1",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ramsey/uuid.git",
-                "reference": "cd4032040a750077205918c86049aa0f43d22947"
+                "reference": "e4562b089b874f9026e9b84a6ca0e9634a22218f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ramsey/uuid/zipball/cd4032040a750077205918c86049aa0f43d22947",
-                "reference": "cd4032040a750077205918c86049aa0f43d22947",
+                "url": "https://api.github.com/repos/ramsey/uuid/zipball/e4562b089b874f9026e9b84a6ca0e9634a22218f",
+                "reference": "e4562b089b874f9026e9b84a6ca0e9634a22218f",
                 "shasum": ""
             },
             "require": {
@@ -212,11 +245,11 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-08-18T17:17:46+00:00"
+            "time": "2020-08-23T20:04:10+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.18.1",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
@@ -293,8 +326,10 @@
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "stable",
-    "stability-flags": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "exocdr/exo-kernel": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

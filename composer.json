@@ -3,9 +3,10 @@
     "description": "Amazium : Test Project",
     "type": "project",
     "require": {
-        "ramsey/uuid": "^4.1"
+        "ramsey/uuid": "^4.1",
+        "exocdr/exo-kernel": "dev-main"
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "license": "proprietary",
     "authors": [
         {
